@@ -3,4 +3,5 @@ log/*.log
 tmp/**/*
 DEPENDENCIES
 noodle
-pkg
+pkg/**/*
+Manifest
