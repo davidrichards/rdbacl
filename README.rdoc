@@ -1,6 +1,6 @@
 = rdbacl
 
-* FIX (url)
+* http://github.com/davidrichards/rdbacl/tree/master
 
 == DESCRIPTION:
 
