@@ -8,25 +8,39 @@ Rdbacl is a Ruby interface to dbacl, a Bayesian text analysis tool.  Dbacl is a 
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Wraps a dbacl command with a decent Ruby syntax
+* Sets up multiple classifications per application very easily
+
+TODO: 
+
+* Finish the wrapped_dbacl classes
+* Finish the wrapper class (a few config options are left, #2, and some more validation)
+* Rack Middleware
+* Runner reset, learn, classify
+* Repository mixins
 
 == SYNOPSIS:
 
   FIX (code sample of usage)
+  For an ActiveRecord model:
+  ...
+  
+  As Rack Middleware:
+  ...
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* dbacl (sudo port install dbacl or sudo apt_get install dbacl should work)
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install davidrichards-rdbacl
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIX
+Copyright (c) 2009 David Richards
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
